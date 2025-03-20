@@ -1,3 +1,6 @@
 console.log("HOla")s
-dsa(cambio original)
+<<<<<<< Updated upstream
 Nuevo cambie
+=======
+
+>>>>>>> Stashed changes
