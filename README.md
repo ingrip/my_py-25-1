@@ -37,12 +37,14 @@ Una vez ejecutado, podrás navegar por las metodologías disponibles y utilizar 
 ### Break down into end to end tests
 
 Simulación manual de pruebas de principio a fin:
-
+```
 Agregar concepto -> Verificar que aparece en archivo .inf
+```
+```
 Buscar concepto -> Verificar salida en pantalla
 Eliminar concepto -> Confirmar que ya no aparece en archivo .inf
 Leer base -> Verificar contenido desplegado
-
+```
 
 ## Deployment
 
