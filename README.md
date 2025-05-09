@@ -19,28 +19,26 @@ Para tenerlas instaladas en tu computadora ingresaras a tu terminal y agregaras 
 ### Installing
 
 #### Opción 1: Usando Bash Shell directamente
-
+```
 chmod +x script.sh # Dar permisos de ejecución
 ./script.sh -a # Para metodologías ágiles
 ./script.sh -t # Para metodologías tradicionales
-
+```
 
 #### Opción 2: Usando Docker
-
+```
 Construir la imagen
 docker build -t metodologias .
 Ejecutar el contenedor
 docker run -it metodologias -a # Puede ser -a o -t según lo que se desee usar
 Una vez ejecutado, podrás navegar por las metodologías disponibles y utilizar el submenú para agregar, buscar, eliminar o leer información.
-
+```
 
 ### Break down into end to end tests
 
 Simulación manual de pruebas de principio a fin:
 ```
 Agregar concepto -> Verificar que aparece en archivo .inf
-```
-```
 Buscar concepto -> Verificar salida en pantalla
 Eliminar concepto -> Confirmar que ya no aparece en archivo .inf
 Leer base -> Verificar contenido desplegado
